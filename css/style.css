@@ -1,0 +1,181 @@
+/*=========== Font ============*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    margin: auto;
+    padding: auto;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-right: 16px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #478CCF;
+}
+
+.container .logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container .logo a h1 {
+    text-align: center;
+    align-items: center;
+    margin: 10px 40px;
+    padding: 15px 0;
+    width: 100%;
+    height: 70px;
+}
+
+.container .menu ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.container .menu ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    height: 60px;
+    margin-right: 1rem;
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    padding: 15px 0;
+    color: #fff;
+}
+
+.container .btn-book button {
+    color: #478CCF;
+    margin: 0 auto;
+    padding: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+}
+
+/*=================== Main Content ==================== */
+
+.main-content {
+    display: flex;
+    background-color: #37B7C3;
+}
+
+.main-content .btn-book button {
+    background-color: #fff;
+    color: #478CCF;
+    margin: 0 3px;
+    padding: 0 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+    height: 66px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.main-content .btn-book button p {
+    margin: 0;
+    padding: 0;
+    color: #478CCF;
+    align-items: center;
+    text-align: center;
+}
+
+.main-content .btn-learnMore {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.main-content .btn-learnMore .learn-more a{
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 0;
+    margin-left: 5rem;
+    float: right;
+    color: #fff;
+    display: flex;
+}
+
+.main-content .content {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-right: 50px;
+}
+
+.main-content .content h1 {
+    color: #fff;
+    margin: 50px;
+    display: block;
+    align-items: center;
+    text-align: start;
+}
+
+.main-content .content p {
+    color: #fff;
+    margin: 50px;
+    display: block;
+    align-items: center;
+    text-align: start;
+}
+
+.main-content .picture-doctor img{
+    margin: 0 50px 0;
+    width: 100%;
+    height: 100%;
+    filter: brightness(85%);
+    object-fit: cover;
+}
+
+/*=================== Resoponsive Navigation Bar ================ */
+
+.container .menu ul li a:hover{
+    color: #E90064;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+}
+
+.container .btn-book button:hover {
+    color: #E90064;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+}
+
+.main-content .btn-learnMore .btn-book button:hover p{
+    color: #E90064;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+}
+
+.main-content .btn-learnMore .learn-more a:hover {
+    color: #E90064;
+    transition: 0.3s ease;
+}
